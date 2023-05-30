@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+#carousel {
+	width: 100%;
+	margin-top: 22px;
+}
+#slides {
+	overflow: hidden;
+	width: 90%;
+	height: 100%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-top: 35px;
+}
+#slides ul {
+	list-style: none;
+	padding: 0;
+	position: relative;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	float: none;
+}
+#slides ul .slide{
+	width: 100%;
+	text-align: center;
+	font-family: lato, sans-serif;
+	float: left;
+}
+#da_wraper section article #carousel #slides ul .slide {
+	height: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 98%;
+}
+#buttons a {
+	text-align: center;
+	font-size: 40px;
+	float: left;
+	outline: 0;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 9px;
+}
+#da_wraper section article h1 {
+	color: #FFF;
+	margin-top: 100px;
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	font-size: 36px;
+}
+a#prev:hover,
+a#next:hover {
+	color: #082e3f;
+	text-shadow: .5px 0px #b14943;
+}
+.quote-phrase,
+.quote-author {
+	width: 100%;
+	font-family: 'Poiret One', cursive;
+}
+.quote-phrase {
+	font-family: 'Poiret One', cursive;
+	color: #FFFFFF;
+	font-weight: lighter;
+	font-size: 26px;
+	display: block;
+	width: 65%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#carousel #slides ul .slide .quoteContainer .quote-phrase:hover {
+	font-family: 'Poiret One', cursive;
+	font-size: 24px;
+	color: #082E3F;
+}
+#da_wraper section article #slides {
+	margin-top: 90px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+	display: block;
+	width: 90%;
+	float: left;
+}

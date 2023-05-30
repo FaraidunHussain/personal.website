@@ -1,0 +1,308 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	}
+	h1
+	{
+		font-size: 24px;
+	}
+h2{
+	font-size: 24px;
+	}
+#da_wraper {
+	float: left;
+	height: auto;
+	width: 100%;
+}
+#da_wraper .da_about {
+	float: left;
+	height: auto;
+	width: 100%;
+	background-color: #F0F0F0;
+	display: none;
+}
+#da_wraper .da_about p {
+	padding: 10px;
+	width: 450px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-family: 'Poiret One', cursive;
+	font-size: 22px;
+}
+#da_wraper .da_about li {
+	width: 450px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	list-style-type: circle;
+}
+#da_wraper .da_about h1 {
+	height: auto;
+	width: 450px;
+	color: #082E3F;
+	font-family: 'Poiret One', cursive;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#da_wraper .da_portfolio {
+	background-color: #C60;
+	float: left;
+	height: auto;
+	width: 100%;
+	display: none;
+	z-index: 999;
+}
+#da_wraper .da_portfolio .da_port {
+	float: left;
+	height: 20px;
+	width: 55px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	cursor: pointer;
+	margin-top: 13px;
+	margin-left: 5px;
+	display: block;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+}
+#da_wraper .da_portfolio h2.job {
+	text-align: center;
+	height: 35px;
+	background-color: #666;
+	font-family: 'Poiret One', cursive;
+	color: #FFFFFF;
+	height: auto;
+	width: auto;
+	padding: 5px;
+	text-align: center;
+}
+#da_wraper .da_portfolio #da_samples {
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 25px;
+}
+#da_wraper .da_portfolio .samples {
+	float: left;
+	height: auto;
+	width: 170px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: 15px;
+	padding: 5px;
+}
+#da_wraper .da_portfolio #da_samples .samples img {
+	width: 100px;
+	height: 100px;
+    padding: 2px;
+}
+#da_wraper .da_portfolio .samples:hover {
+	opacity:0.7;
+}
+.da_portfolio #da_samples .samples p a {
+	background-color:dimgrey;
+	display: block;
+	width: 100%;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+#da_samples .samples h3 {
+	font-size: 24px;
+	font-family: 'Poiret One', cursive;
+	float: left;
+	color: white;
+}
+.social_network_da_g, .social_network_da_f, .social_network_da_t, .social_network_da_in {
+	float: right;
+	height: 40px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #E5E5E5;
+	opacity: 0.6;
+}
+.social_network_da_in:hover {
+	opacity: 1;
+}
+
+.social_network_da_t:hover {
+	opacity:1;
+}
+.social_network_da_f:hover {
+	opacity:1;
+}
+
+.social_network_da_g:hover {
+	opacity:1;
+}
+.da_menu {
+	float: right;
+	display: none;
+}
+#da_logo {
+	float: left;
+	z-index: 999;
+	margin-top: 1px;
+	margin-right: 2px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	padding-top: 1px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 1px;
+	height: 90px;
+    opacity: 0.5;
+	border-bottom: 1px;
+	border-bottom-color: #069;
+}
+.da_nav {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.da_nav .da_ul {
+	width: 620px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.da_nav .da_ul li {
+	height: 98px;
+	list-style-type: none;
+	display: inline;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #E5E5E5;
+	text-align: center;
+	width: 135px;
+	float: left;
+}
+.da_nav .da_ul .da_home {
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #E5E5E5;
+	height: 100px;
+}
+.da_nav .da_ul li a {
+	text-decoration: none;
+	font-family: 'Poiret One', cursive;
+	font-size: 22px;
+	color: #082E3F;
+	text-align: center;
+	height: 48px;
+	width: auto;
+	display: block;
+	padding-top: 40px;
+	font-weight: bolder;
+	font-style: normal;
+}
+section {
+	height: auto;
+	width: 100%;
+	float: left;
+}
+article {
+	width: 100%;
+	background-color: #D78100;
+	float: left;
+	height: 350px;
+}
+aside {
+	float: left;
+	width: 100%;
+	background-color: #EAEAEA;
+	padding-bottom: 25px;
+}
+aside .da_contact {
+	float: left;
+	width: 100%;
+	background-color: #082e3f;
+	display: none;
+}
+#da_wraper section aside .change {
+	font-family: 'Poiret One', cursive;
+	font-size: 35px;
+	color: #082E3F;
+	height: auto;
+	width: auto;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	padding: 5px;
+	text-align: center;
+}
+#da_wraper section aside p {
+	font-family: 'Poiret One', cursive;
+	font-size: 22px;
+	width: 800px;
+	display: block;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.link {
+	font-family: 'Poiret One', cursive;
+	color: #082e3f;
+	text-decoration: none;
+}
+#da_wraper section aside p a {
+	text-decoration: underline;
+	color: #CCC;
+}
+footer {
+	width: 100%;
+	background-color: #082e3f;
+	float: left;
+	font-family: 'Poiret One', cursive;
+	font-size: 22px;
+	color: #FFF;
+}
+footer li {
+	list-style-type: circle;
+	padding-top: 5px;
+	padding-left: 5px;
+	font-weight: lighter;
+	font-size: 24px;
+	font-variant: normal;
+	font-style: normal;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	width: 600px;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#da_wraper footer li a {
+	font-family: "Unikurd Tishk";
+	color: #FFF;
+	text-decoration: none;
+}
+#da_wraper footer li a b {
+	font-family: "Unikurd Kamran";
+	font-weight: lighter;
+	color: #FFF;
+	font-size: 24px;
+}
+#da_wraper footer #scroll {
+	float: right;
+	cursor: pointer;
+}

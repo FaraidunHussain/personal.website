@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:768px){
+*{
+	margin:0;
+	padding:0;
+	}
+.da_menu {
+	cursor: pointer;
+	width:90%;
+	display: block;
+	height: 28px;
+	font-family:fantasy;
+	color:  #999;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+#da_logo {
+	padding-top: 1px;
+	padding-left: 5px;
+}
+#da_logo a img {
+	height: auto;
+	width: auto;
+	margin-left: 3px;
+	margin-top: 3px;
+}
+.da_nav {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-bottom-width: 1px;
+	display: none;
+}
+.da_nav .da_ul {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	z-index: 999;
+}
+.da_nav .da_ul li {
+	height: 55px;
+	list-style-type: none;
+	display: block;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	border-right-width: 0px;
+	border-right-style: none;
+	margin-top: 0px;
+}
+.da_nav .da_ul .da_home {
+	border-left-width: 0px;
+	border-left-style: none;
+	height: 57px;
+	padding-left: 5px;
+}
+.da_nav .da_ul li a {
+	text-decoration: none;
+	font-family: 'Poiret One', cursive;
+	font-size: 22px;
+	color: #082E3F;
+	text-align: left;
+	height: 45px;
+	width: auto;
+	display: block;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+#da_wraper .da_about p {
+	padding: 10px;
+	width: 95%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-family: 'Poiret One', cursive;
+	font-size: 22px;
+	display: block;
+	}
+.quote-phrase {
+	font-family: 'Poiret One', cursive;
+	color: #FFFFFF;
+	font-weight: lighter;
+	font-size: 120%;
+	display: block;
+	width: 55%;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+#da_wraper section article {
+	height: auto;
+	width: 100%;
+}
+ul li .slide     {
+	width: 90%;
+}
+footer li {
+	list-style-type: circle;
+	padding-top: 5px;
+	padding-left: 5px;
+	font-weight: lighter;
+	font-size: 24px;
+	font-variant: normal;
+	font-style: normal;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	width: 98%;
+}
+#da_wraper section aside p {
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+	width: 90%;
+	display: block;
+	padding-top: 15px;
+	padding-right: 5px;
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
+#da_wraper .da_portfolio .da_port {
+	float: left;
+	margin-left: 0px;
+	margin-top: 5px;
+	width: 50px;
+	border: 1px solid #FFF;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+#da_wraper .da_portfolio h2.job {
+	background-color: #666;
+	font-family: 'Poiret One', cursive;
+	color: #FFFFFF;
+	height: auto;
+	width: 98%;
+	text-align: left;
+	float: left;
+	display: block;
+}
+#da_wraper .da_portfolio {
+	float: left;
+	width: 100%;
+	padding-bottom: 10px;
+}
+#da_wraper .da_about h1 {
+	width: 90%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+}
+#da_wraper .da_about {
+	width: 100%;
+}
+}
